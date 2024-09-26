@@ -51,6 +51,7 @@ const Variant = ({selectedItem}) => {
       <div className='price'>$ {selectedItem.price}</div>
       <div className='bold'>We've been serving for over <span style={{border:'1px solid white',backgroundColor: 'rgba(0, 0, 255, 0.829)', color:'white'}}>5 years...</span></div>
       </div>
+      <div></div>
     </div>
   );
 };
